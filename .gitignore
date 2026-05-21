@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Streamlit
+.streamlit/
+*.log
+
+# Project Specific Data & Models
+data/
+models/*.keras
+models/*.h5
+outputs/
+raw_data.csv
+
+# OS
+.DS_Store
+Thumbs.db
